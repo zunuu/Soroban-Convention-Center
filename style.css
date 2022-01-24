@@ -4,6 +4,10 @@ body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Sora', sans-serif;
 }
+
+.catering-description-background{
+    background-color: #93AA84;
+}
 /* package section styles  */
 .package-offers{
     list-style: none;
