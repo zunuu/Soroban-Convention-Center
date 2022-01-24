@@ -4,6 +4,7 @@ body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Sora', sans-serif;
 }
+/* menu styles  */
 
 .catering-description-background{
     background-color: #93AA84;
@@ -54,4 +55,12 @@ body{
 border-right: 0px;
 border-bottom: 0px;
 background-color: rgb(14, 0, 92);
+}
+/* contact section  */
+.contact-section{
+    background-color: rgba(81, 104, 204, 0.055);
+    border-radius: 50px;
+}
+.contact-form{
+   border-radius: 15px;
 }
