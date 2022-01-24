@@ -39,3 +39,15 @@ body{
 .app-button{
     border-radius: 10px;
 }
+/* toast  */
+.fa-robot{
+    font-size: 30px;
+}
+.toast-item{
+    border: 5px solid;
+    border-color: rgba(6, 6, 54, 0.753);
+    border-top: 0px;
+border-right: 0px;
+border-bottom: 0px;
+background-color: rgb(14, 0, 92);
+}
