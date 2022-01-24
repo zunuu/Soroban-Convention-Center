@@ -143,7 +143,7 @@
 
     <main>
         <!-- Packages Section  -->
-        <section class=" d-flex justify-content-center mb-5">
+        <section class=" d-flex justify-content-center">
             <div class="p-5">
                 <h2 class="mb-5 text-center h1">Our Packages</h2>
 
@@ -349,14 +349,16 @@
             </div>
 
         </section>
-        <section class=" d-flex justify-content-center mb-5">
-            <!-- FAQ Section  -->
+
+        <!-- FAQ Section  -->
+
+        <section class=" d-flex mx-auto justify-content-center pt-5 mb-5">
             <div>
-                <h2 class="mb-5 text-center h1 ">Frequently Asked Questions</h2>
-                <div class="mx-0  align-items-center row">
+                <h2 class="mb-5  text-center h1 ">Frequently Asked Questions</h2>
+                <div class="mx-0 align-items-center row">
 
                     <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <div class="accordion" id="accordionExample">
+                        <div class="accordion mx-auto" id="accordionExample">
                             <div class="accordion-item mb-3 rounded-3">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -427,27 +429,41 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-center col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <!-- faq image  -->
                         <img src="./images/frequent.jpg" class="my-5 rounded-3 img-fluid" alt="">
                     </div>
                 </div>
             </div>
 
         </section>
+
     </main>
 
 
 
 
-
-    <footer>
-        <section class="container d-flex justify-content-between">
-            <div>
+    <!-- footer section  -->
+    <footer class="footer-background">
+        <section
+            class="container d-flex flex-column flex-xl-row flex-md-row flex-sm-column flex-lg-row justify-content-between align-items-center p-5">
+            <div class="text-white py-5 order-1 order-sm-1 order-md-0 order-lg-0 order-xl-0">
                 &copy 2022, All right reserved
             </div>
-            <div>
-                <div><i class="fab fa-apple"></i> Get it on Apple store</div>
-                <div><i class="fab fa-google-play"></i> Get it on play store</div>
+            <div class="order-0 order-sm-0 order-md-1 order-lg-1 order-xl-1">
+                <h3 class="text-white pb-3">Get The App</h3>
+                <button
+                    class="w-100 border-1 border-white text-decoration-none text-white bg-transparent px-3 py-2 d-flex align-items-center my-3  app-button">
+                    <div><i class="fab fa-apple pe-3"></i></div>
+                    <div class="text-start"><small>Download on the</small>
+                        <h6>App store</h6>
+                    </div>
+                </button>
+                <button
+                    class="w-100 border-1 border-white text-decoration-none text-white bg-transparent px-3 py-2 d-flex align-items-center my-3 app-button">
+                    <div><i class="fab fa-google-play pe-3"></i></div>
+                    <div class="text-start"><small>Get it on</small>
+                        <h6>Google Play</6>
+                    </div>
+                </button>
 
             </div>
         </section>

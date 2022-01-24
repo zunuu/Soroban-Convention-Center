@@ -4,7 +4,7 @@ body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Sora', sans-serif;
 }
-/* package section  */
+/* package section styles  */
 .package-offers{
     list-style: none;
 }
@@ -25,6 +25,17 @@ body{
     border-radius: 25px;
     height: 110%;
 }
+/* FAQ styles  */
 .accordion-body{
     color: #7E848C;
+}
+/* footer styles  */
+.fa-apple,.fa-google-play{
+    font-size: 40px;
+}
+.footer-background{
+    background-color: #0B0D17;
+}
+.app-button{
+    border-radius: 10px;
 }
